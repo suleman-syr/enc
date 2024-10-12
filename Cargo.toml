@@ -1,0 +1,18 @@
+[package]
+name = "encryptor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+mime_guess = "2.0.5"
+rsa = "0.9.6"
+secrecy = "0.10.2"
+libaes = "0.7.0"
+zeroize = "1.8.1"
+threadpool = "1.8.1"
+num_cpus = "1.16"
+pem = "1.0"
+sysinfo = "0.32.0"
