@@ -1,0 +1,5 @@
+target/
+debug
+config.toml
+Config.lock
+Cargo.lock
